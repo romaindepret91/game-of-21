@@ -1,0 +1,34 @@
+
+#endGame-modale {
+    width: 350px;
+    background-color: aliceblue;
+}
+
+.end-of-game {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    & > .end-of-game__winners, & > .end-of-game__games {
+        width: 80%;
+    }
+
+    & > .end-of-game__btns {
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+    }
+
+    & > .end-of-game__games, & > .end-of-game__winners {
+        text-align: center;
+    }
+}
+
+.end-of-game__winners {
+
+    & > ul > li:first-child {
+        margin-top: 5px;
+    }
+}

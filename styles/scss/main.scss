@@ -1,0 +1,33 @@
+
+// Settings
+@import "1-settings/_colors";
+@import "1-settings/_fonts";
+@import "1-settings/_space";
+@import "1-settings/_transitions";
+
+// Tools
+
+// Generic
+@import "3-generic/_reset";
+
+// Elements
+@import "4-elements/_body";
+@import "4-elements/_header";
+@import "4-elements/_typo";
+
+// Objects
+@import "5-objects/_fades";
+@import "5-objects/_space";
+
+// Components
+@import "6-components/_board";
+@import "6-components/_btns";
+@import "6-components/_endGame-modale";
+@import "6-components/_game";
+@import "6-components/_list-block";
+@import "6-components/_names-block";
+@import "6-components/_player-area";
+@import "6-components/_player-name";
+@import "6-components/_selection-block";
+
+// Utilities
